@@ -10,6 +10,7 @@
 
 self.addEventListener('install', event => {
   self.skipWaiting();
+  console.log('on install...');
 });
 
 self.addEventListener('activate', event => {
